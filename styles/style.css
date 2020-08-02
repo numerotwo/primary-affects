@@ -1,0 +1,33 @@
+/* !!!Notes on Selectors!!!
+Below are some common selectors that target specific
+HTML elements */
+
+
+/* Element Selectors */
+h1 {
+  color: #004466;
+  width: 200px;
+}
+
+/* Class Selectors */
+.repeater {
+  font-family: arial, sans-serif;
+  color: #004466;
+}
+
+/* Attribute Selectors */
+img[src] {
+  width: 250px;
+  height: 250px;
+}
+
+/* ID Class Selectors */
+#belle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* pseudo-class selectors */
+a:hover {
+  color: red;
+}
